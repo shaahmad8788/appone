@@ -1,0 +1,99 @@
+{
+  "student_placed": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "company": "Tech Solutions"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "3",
+      "name": "A Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "4",
+      "name": "B Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "5",
+      "name": "C Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "6",
+      "name": "D Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "7",
+      "name": "E Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "8",
+      "name": "F Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "9",
+      "name": "G Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "10",
+      "name": "H Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "11",
+      "name": "I Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "12",
+      "name": "J Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "13",
+      "name": "K Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "14",
+      "name": "L Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "15",
+      "name": "M Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "16",
+      "name": "N Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "17",
+      "name": "O Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "18",
+      "name": "P Smith",
+      "company": "Innovate Corp"
+    },
+    {
+      "id": "19",
+      "name": "Q Smith",
+      "company": "Innovate Corp"
+    }
+  ]
+}

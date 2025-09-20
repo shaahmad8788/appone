@@ -1,0 +1,50 @@
+<div class="container mt-4">
+  <h2 class="mb-3" routerLink="/crud/add">Student Placement Dashboard</h2>
+
+  <button 
+    class="btn btn-primary mb-3">+ Add New Student</button>
+    
+
+
+  <table class="table table-hover table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <ng-container *ngIf="stdData?.length; else noData">
+        <tr *ngFor="let student of stdData">
+          <td>{{ student.id }}</td>
+          <td>{{ student.name }}</td>
+          <td>{{ student.company }}</td>
+          <td>
+            <button 
+              class="btn btn-warning btn-sm me-2"
+              
+              aria-label="Edit student">
+              Edit
+            </button>
+            <button 
+              class="btn btn-danger btn-sm"
+              
+              aria-label="Delete student" (click)="deleteData(student.id)">
+              Delete
+            </button>
+          </td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+
+  <ng-template #noData>
+    <tr>
+      <td colspan="4" class="text-center text-muted">No students available</td>
+    </tr>
+  </ng-template>
+</div>
+

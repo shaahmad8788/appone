@@ -1,0 +1,37 @@
+<p>add works!</p>
+<!-- ...existing code... -->
+<div class="container mt-4">
+  <h2 class="mb-3">Add New Student</h2>
+
+  <form (ngSubmit)="submit()" #addForm="ngForm">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input
+        id="name"
+        name="name"
+        class="form-control"
+        required
+        [(ngModel)]="name"
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="company" class="form-label">Company</label>
+      <input
+        id="company"
+        name="company"
+        class="form-control"
+        required
+        [(ngModel)]="company"
+      />
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="addForm.invalid">
+      Add
+    </button>
+    <button type="button" class="btn btn-secondary ms-2" (click)="goToCrud()">
+      Cancel
+    </button>
+  </form>
+</div>
+<!-- ...existing code... -->
